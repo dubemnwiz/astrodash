@@ -1,0 +1,74 @@
+.astro-container {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #1a0329;
+  color: white;
+}
+
+.sidebar {
+  flex: 1;
+  max-width: 20%;
+  background-color: #20003c;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.sidebar-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-nav a:hover {
+  color: #ffd700;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  padding: 2rem;
+  gap: 50px;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: rgb(41, 18, 74);
+  border-radius: 13px;
+  padding: 30px;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
